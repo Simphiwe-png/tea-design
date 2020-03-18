@@ -1,0 +1,270 @@
+body {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.masthead{
+  background-image: url(../images/verdure.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 200px;
+
+}
+#logo img{
+  width: 100px;
+  margin-left: 620px;
+}
+.navbarcontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.navbarcontainer ul{
+display: flex;
+list-style: none;
+}
+.navbarcontainer li{
+  padding: 10px;
+}
+.navbarcontainer ul li a{
+  text-decoration: none;
+  color: black;
+}
+ul li a:hover{
+  color:#99A769;
+}
+.icons{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 8px;
+}
+#button{
+  background-color: #99A769;
+  padding: 17px 20px;
+  margin-left: 540px;
+  width: 150px;
+  font-size: 15px;
+  border: 1px solid #99A769;
+  text-transform: uppercase;
+  color:white;
+
+
+}
+.homepagecontainer h1{
+display: flex;
+align-items: center;
+justify-content: space-around;
+font-size: 80px;
+font-weight: 100;
+}
+.homepagecontainer p{
+  display: flex;
+  justify-content: space-around;
+}
+/* .mastmain{
+  display: grid;
+  grid-template-columns: auto auto; */
+}
+.first-grid{
+  /* display: grid;
+  grid-template-columns: auto auto; */
+/* margin-top: 10px; */
+}
+.cupoftea img{
+  width: 430px;
+float: left;
+height: 350px;
+margin-top: -10px;
+}
+.homemade-cont{
+margin-top: -10px;
+  width: 850px;
+  height: 350px;
+background-image: url("../images/home-2background.jpg");
+float: right;
+}
+.homemade-cont h2 {
+  margin-left: 80px;
+  margin-top: 110px;
+  color: white;
+}
+.homemade-cont p {
+  margin-left: 80px;
+  color: white;
+}
+
+#button2{
+  /* padding: 20px 20px; */
+  margin-left: 80px;
+  width: 100px;
+  height: 40px;
+  /* font-size: 15px; */
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+.maincontent-container{
+  /* display: flex;
+  justify-content: space-around; */
+  margin-top: -90px;
+}
+
+.grid-two{
+   display: flex;
+  justify-content: center;
+
+}
+.grid-two h2{
+  font-size: 20px;
+  /* margin-left: 25px;
+  margin-top: -30px; */
+}
+.grid-two img{
+  width: 100px;
+  border-radius: 50%;
+   padding: 30px;
+}
+.grid-two p{
+  /* margin-left: 60px; */
+}
+.pic{
+  text-align: center;
+}
+.checked{
+  color: #99A769;
+
+}
+.main-content{
+  text-align: center;
+margin-bottom: 50px;
+}
+.main-content h2{
+  margin-top: 300px;
+}
+#online{
+  margin-top: 100px;
+}
+
+.last-cont{
+  display: grid;
+  grid-template-columns: auto auto;
+  color:white;
+  margin-top: 100px;
+
+}
+.discount{
+  background-image: url("../images/home-2background.jpg");
+
+    /* width: 850px;
+    height: 350px; */
+}
+.teapic img{
+  height:350px;
+}
+.discount{
+  padding: 60px;
+}
+#button3{
+  /* margin-left: 80px; */
+  width: 100px;
+  height: 40px;
+  /* font-size: 15px; */
+  text-transform: uppercase;
+  border: 1px solid white;
+}
+.thirdcontent{
+  text-align: center;
+}
+.fourth-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#firsttea{
+ background-image: url("../images/tea2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+}
+.third-cont h4{
+  border: 1px solid #99A769;
+  background-color: #99A769;
+  color: white;
+  width: 100px;
+  height: 50px;
+
+}
+#secondtea{
+  background-image: url("../images/tea.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 400px;
+   height: 200px;
+
+}
+#thirdtea{
+  background-image: url("../images/tea3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 400px;
+   height: 200px;
+}
+.lastcontent-container{
+  display: flex;
+  justify-content: space-around;
+}
+.lastcontent-container a{
+  display: flex;
+  justify-content: space-around;
+  color:black;
+}
+.lastgrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 70px;
+}
+.lastcontent{
+background-image: url("../images/home-2background.jpg");
+width: 850px;
+height: 350px;
+color: white;
+
+}
+iframe{
+  height: 350px;
+}
+
+ .lastcontent h4{
+margin-left: 80px;
+font-size: 20px;
+text-transform: uppercase;
+margin-top: 70px;
+}
+/*.lastcontent{
+  /* border:1px solid white; */
+  /*width:210px;
+  margin-left: 80px;
+  height:60px;
+
+}
+.lastcontent{
+  /* border:1px solid white;
+  width:210px;
+  margin-left: 80px;
+  height:30px;
+} */
+#email{
+width: 50%;
+margin-left: 80px;
+}
+#message{
+  margin-left: 80px;
+  background: transparent;
+}
+#button4{
+  margin-left: 90px;
+  width: 100px;
+  height: 40px;
+  text-transform: uppercase;
+  border: 1px solid white;
+}
